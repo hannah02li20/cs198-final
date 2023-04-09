@@ -1,9 +1,9 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const user = require("./routes/user");
+const user = require("./backend_stuff/routes/user.js");
 // added the line below to import shop.js
-const shop = require("./routes/shop");
-const InitiateMongoServer = require("./config/db");
+const shop = require("./backend_stuff/routes/shop.js");
+const InitiateMongoServer = require("./backend_stuff/config/db.js");
 
 // Initiate Mongo Server
 InitiateMongoServer();
