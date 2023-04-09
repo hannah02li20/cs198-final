@@ -11,7 +11,7 @@ TO CONNECT TO MONGODB
         and replace the databse name with test, so:
         mongosh "mongodb+srv://cluster0.ln4upv6.mongodb.net/test" --apiVersion 1 --username hannah02li20
         and use your own username
-7) copy mongosh "mongodb+srv://cluster0.ln4upv6.mongodb.net/test" --apiVersion 1 --username hannah02li20 into the terminal and hit enter
+7) copy mongosh "mongodb+srv://cluster0.ln4upv6.mongodb.net/test" --apiVersion 1 --username hannah02li20 into the terminal and hit enter, enter the password
 
 8) open another new terminal
 9) run node index.js
@@ -26,5 +26,6 @@ TO CONNECT TO MONGODB
     }
 
     in the body
-    
+    it will give you a token, copy that token. everything you do login, list, add, or delete, use that token in the HEADER
+
 11) it should work now
