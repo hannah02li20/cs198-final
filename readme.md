@@ -13,6 +13,9 @@ TO CONNECT TO MONGODB
         and use your own username
 7) copy mongosh "mongodb+srv://cluster0.ln4upv6.mongodb.net/test" --apiVersion 1 --username hannah02li20 into the terminal and hit enter, enter the password
 
+if it doesn't work, go to database, there might be a popup that saus add current ip address, add it
+if not, go to network address, and add currnet ip address
+
 8) open another new terminal
 9) run node index.js
 
@@ -27,5 +30,12 @@ TO CONNECT TO MONGODB
 
     in the body
     it will give you a token, copy that token. everything you do login, list, add, or delete, use that token in the HEADER
+
+    signup takes only the body
+    login take id in the params and email and password in the body
+    list takes id in the params and token in the header and body
+    add takes id and item in the params and token in the header
+    delete takes id and item in the params and token in the header
+
 
 11) it should work now
