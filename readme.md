@@ -17,4 +17,14 @@ TO CONNECT TO MONGODB
 9) run node index.js
 
 10) go to postman
+11) POST localhost:4000/user/signup
+        with 
+    {
+    "username":"bob",
+    "email":"bob@gmail.com",
+    "password":"bob123"
+    }
+
+    in the body
+    
 11) it should work now
