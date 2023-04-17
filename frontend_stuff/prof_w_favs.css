@@ -1,0 +1,29 @@
+.boxed {
+    border: 1px solid rgb(17, 0, 128) ;
+  }
+
+.circular_image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: blue;
+    /*
+    float: left;
+    margin-left: 125px;
+    margin-top: 20px;
+    display:inline-block;
+    vertical-align:middle; 
+    */
+  }
+
+.circular_image {
+    width:100%;
+  }
+
+.favorites_box {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    border: solid 1px
+}
