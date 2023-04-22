@@ -1,44 +1,51 @@
 /* for css stuff that shoudl be applied to every page
 ex: navbar css */
+* {
+  font-family: Verdana, sans-serif ;
+}
 
+body {
+  margin: 0px;
+}
 /* navbar */
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-/* Add a black background color to the top navigation */
-
-.nav-bar {
-    background-color: #333;
-    overflow: hidden;
-  }
+li, a {
+  font-weight: 500;
+  font-size: 16ps;
+  text-decoration: none;
+  color: white;
+}
+ 
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 2%;
+  margin: 0px 0px 0px 0px;
+  background-color: navy;
   
-  /* Style the links inside the navigation bar */
+}
 
-  .nav-bar a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .nav-bar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .nav-bar a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
+.logo {
+  margin-right: auto;
+  color: white;
+}
 
+.prof-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
 
-  #profIMG {
-    border-radius: 50%;
-  }
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a:hover {
+  background-color:#2196F3;
+}
