@@ -1,11 +1,13 @@
 /* for css stuff that shoudl be applied to every page
 ex: navbar css */
 * {
-  font-family: Verdana, sans-serif ;
+  /* font-family: Arial, sans-serif ; */
+
 }
 
 body {
   margin: 0px;
+  font-family: Arial, sans-serif ;
 }
 /* navbar */
 
@@ -23,7 +25,6 @@ header {
   padding: 10px 2%;
   margin: 0px 0px 0px 0px;
   background-color: navy;
-  
 }
 
 .logo {
