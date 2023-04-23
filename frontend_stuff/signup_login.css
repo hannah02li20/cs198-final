@@ -1,0 +1,44 @@
+#forgot {
+    color:black;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: blueviolet; */
+   
+}
+
+.sign {
+    /* text-align: center; */
+    width: 45%;
+    /* background-color: yellow; */
+    padding-left: 10px;
+}
+
+.log {
+    width: 45%;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+
+input {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    /* margin-left: 5%; */
+    /* margin-right: 10%; */
+    display: block;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit]{
+    width: 30%;
+    margin-right: 60%;
+  }
+  
