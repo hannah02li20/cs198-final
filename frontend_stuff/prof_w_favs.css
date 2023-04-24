@@ -1,14 +1,6 @@
 /* .boxed {
     border: 1px solid rgb(17, 0, 128) ;
   } */
-
-.circular_image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-    background-color: blue;
-  
     /*
     float: left;
     margin-left: 125px;
@@ -16,15 +8,101 @@
     display:inline-block;
     vertical-align:middle; 
     */
-  }
 
 /* .circular_image {
     width:100%;
   } */
 
-.favorites_box {
+/* .favorites_box {
     display: flex;
     justify-content: space-between;
     width: 500px;
     border: solid 1px
+} */
+
+.profile_pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.profile_header {
+  padding: 40px;
+  text-align: left;
+  background-color: rgb(206, 206, 206);
+  color: black;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  
+}
+.profile_header h1 {
+  padding: 20px;
+}
+
+.grid_wrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  grid-auto-rows: 100px;
+  grid-template-areas:
+    "a a a a b b b b"
+    "a a a a b b b b";
+  align-items: start;
+  padding: 25px;
+}
+
+.profile_grid_container {
+  display: grid;
+  /* flex-direction: column; */
+  /* justify-content: left; */
+  grid-template-columns: 50%;
+  margin-left: 20px;
+  /* column-gap: 10px; */
+}
+
+.left_grid {
+  grid-area: a;
+}
+
+.right_grid {
+  grid-area: b;
+
+}
+.profile_grid {
+  background-color: rgb(206, 206, 206);
+  border-radius: 20px;
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+  margin: 10px;
+  /* flex box attempt LOL
+  width: 90%;
+  padding-left: 10px 20px; 
+  margin: 15px 0;
+  display: block;
+  justify-content: left;
+  border: 1px;
+  border-radius: 10px;
+  box-sizing: border-box; */
+}
+
+.favorites_grid_container {
+  display: grid;
+  /* flex-direction: column; */
+  justify-content: right;
+  grid-template-columns: 50%;
+  margin-left: 20px;
+  /* column-gap: 10px; */
+}
+
+.favorites_grid {
+  background-color: rgb(206, 206, 206);
+  border-radius: 20px;
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+  margin: 10px;
 }
