@@ -7,6 +7,7 @@
     <title>BearEats</title>
     <link rel="stylesheet" href="landing.css"> 
     <link rel="stylesheet" href="general.css">
+    <!-- <link rel="stylesheet" href="/path/to/flickity.css" media="screen"> -->
 </head>
 <body>
     <!-- replace with nav bar things here -->
@@ -24,21 +25,28 @@
 
     </header>
 
-    <h3> BearEats </h3>
-
-    <img src="berkeley_photo.jpeg"> 
-    <img src="FullStack_Project_Logo.png" class="">
-
-    <h3 class="res-description"> Cant decide what to eat? Let us help you decide with our Berkeley restaurant generator! Cater to your cravings and
-    satiate your hunger with our wide variety of options from North side, South side, and downtown Berkeley. </h3>
-
-    <div class="grid-container">
-        <div class="grid-item">1</div>
-        <div class="grid-item">2</div>
-        <div class="grid-item">3</div>
+    <div class="container">
+        <img src="berkeley_photo.jpeg" alt="Snow" style="width:100%;">
+        <div class="centered"><h1>BearEats</h1></div>
+        <div class="bottom-left"><p> Can't decide what to eat? Let us help you decide with our Berkeley restaurant generator! Cater to your cravings and
+            satiate your hunger with our wide variety of options from North side, South side, and downtown Berkeley. Click Generate below to find some options! </p></div>
     </div>
-    
 
+    
+    <!-- <img src="FullStack_Project_Logo.png" class=""> -->
+
+    <p><code>wrapAround: true</code></p>
+    
+    <!-- Flickity HTML init -->
+    <!-- <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+        <div class="gallery-cell">
+            <img src="championcurry.jpeg" alt="plate of japanese curry">
+        </div>
+        <div class="gallery-cell"></div>
+        <div class="gallery-cell"></div>
+        <div class="gallery-cell"></div>
+        <div class="gallery-cell"></div> -->
+    </div>
 
     <button class="generate"> 
        <div>
@@ -47,7 +55,6 @@
         </a>
         </div>
     </button>
-
 
 </body>
 </html>
